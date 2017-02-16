@@ -1,0 +1,47 @@
+body{
+  font-family: 'Caveat Brush', cursive;
+  font-size: 20px;
+  text-transform: uppercase;
+
+}
+
+.headline{
+  text-align: center;
+}
+.playerlist{
+  list-style: none;
+  padding: 0;
+}
+li{
+  display: inline-block;
+  text-align: center;
+  width: 49%;
+}
+
+.selected{
+  background-color: black;
+  color: white;
+}
+.notselected{
+  background-color: white;
+  color: black;
+}
+
+.field{
+  text-align: center;
+}
+table{
+  margin:auto;
+  border: 1px solid black;
+}
+tr{
+  height: 70px;
+
+}
+td{
+  width: 70px;
+  border: 1px solid black;
+}
+.restart{
+  text-align: center;
+}
